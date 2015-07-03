@@ -1,0 +1,29 @@
+#### .gitignore file from https://gist.github.com/kogakure/149016 ---#
+#### Used to ignore various file types generated in LaTeX projects --#
+
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.synctex.gz
+
+#### Also ignore the generated .pdf file ----------------------------#
+*.pdf

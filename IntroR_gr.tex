@@ -1,14 +1,13 @@
-% ------------------------------------------------------------------------------------------------------------------------------------
-% ------------------------------------------------------------------------------------------------------------------------------------
-% Current file is a modified version of the original TeX file, which was written by Paul Torfs & Claudia
-% Brauer. It's the basic file for the greek translation of their respective introductory tutorial in R. 
-% ------------------------------------------------------------------------------------------------------------------------------------
-% ------------------------------------------------------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------
+% Current file is a modified version of the original TeX file,
+% which was written by Paul Torfs & Claudia Brauer.
+% It's the basic file for the greek translation of their respective
+% introductory tutorial in R, "A (very) short introduction to R".
+% -----------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------
 
-\documentclass[a4paper,11pt,twocolumn,tablecaptionabove]{scrartcl} % instead of scrbook
-%\usepackage[small]{caption}
-%\usepackage{natbib}
-%\usepackage{here}
+\documentclass[a4paper,11pt,twocolumn,tablecaptionabove]{scrartcl}
 
 \usepackage{amssymb}
 \bibliographystyle{plain}
@@ -16,13 +15,10 @@
 \usepackage{rotating}
 \usepackage{url}
 \usepackage{hyperref}
-
 \usepackage{multirow}
 \usepackage{a4wide}
-% \usepackage[dutch]{babel}
 \usepackage{graphicx}
-% \usepackage{icomma}
-\usepackage{wasysym} % for promille sign
+\usepackage{wasysym}
 
 % packages for R-intro chapter
 \usepackage{pkg/fancybox}
@@ -31,6 +27,15 @@
 \usepackage[top=2.4cm, bottom=2.4cm, left=2cm, right=2cm]{geometry}
 \setkomafont{captionlabel}{\bfseries} %% Bold float caption
 \setcapindent{1em}
+
+% -----------------------------------------------------------------------------------------
+% Additions for greek language. -----------------------------------------------------------
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+\setmainfont[Mapping=TeX-text]{Arial}
+% -----------------------------------------------------------------------------------------
 
 % format of footnotes
 \renewcommand{\thefootnote}{\fnsymbol{footnote}} % sets the footnotesymbols to fn in stead of numbers (already in use)
@@ -97,29 +102,31 @@
 % package for making question boxes
 \usepackage{boxedminipage}
 
-% ------------------------------------------------------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------
 % NOTES ON FORMATTING
 % \texttt{...} is used to emphasize commands or clicking buttons in verbatim.
-% \verb!...! is only used instead of \texttt{...} when there are brackets or other things \texttt can't handle.
+% \verb!...! is only used instead of \texttt{...} when there are brackets or other things
+% \texttt can't handle.
 % \emph is used to emphasize new terms
-% ------------------------------------------------------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------
 
-\title{\vspace{-13mm}A (very) short introduction to R}
+\title{\vspace{-13mm}Μια (πολύ) σύντομη εισαγωγή στην R}
 \author{Paul Torfs \& Claudia Brauer\\
-\footnotesize{Hydrology and Quantitative Water Management Group}\\
-\footnotesize{Wageningen University, The Netherlands}}
-\date{\small{4 November 2014}}
+\footnotesize{Ομάδα Υδρολογίας και Ποσοτικής Διαχείρισης Υδάτων}\\
+\footnotesize{Πανεπιστήμιο Wageningen, Ολλανδία}}
+\date{\small{4 Νοεμβρίου 2014}}
 
 \begin{document}
 
 \maketitle
 
-% ------------------------------------------------------------------------------------------------------------------------------------
-% [#01] ----------------------------------------------------------------------------------------------------------------------------
-\section{Introduction}
+% -----------------------------------------------------------------------------------------
+% [#01] 
+% -----------------------------------------------------------------------------------------
+\section{Εισαγωγή}
 
-R is a powerful language and environment for statistical computing and
-graphics. It is a public domain (a so called ``GNU'') project which is
+Η R είναι μια ισχυρή γλώσσα και ένα ισχυρό περιβάλλον ανάπτυξης για στατιστικούς
+υπολογισμούς και γραφικά. It is a public domain (a so called ``GNU'') project which is
 similar to the commercial  S language and environment which was
 developed at Bell Laboratories (formerly AT\&T, now Lucent
 Technologies) by John Chambers and colleagues. R can be considered as
