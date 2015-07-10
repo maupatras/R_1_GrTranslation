@@ -26,4 +26,4 @@
 *.synctex.gz
 
 #### Also ignore the generated .pdf file ----------------------------#
-*.pdf
+# *.pdf
