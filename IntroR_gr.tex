@@ -4,7 +4,7 @@
 % --------------------------------------------------------------------------------------------------------------
 % --------------------------------------------------------------------------------------------------------------
 % --- Current file is a modified version of the original TeX file of the tutorial, which was written by Paul ---
-% --- Torfs & Claudia Brauer. It's the basic file for the greek translation.                                 ---
+% --- Torfs & Claudia Brauer. It's the basic file for the greek translation, done by George Kaffezas.        ---
 % --------------------------------------------------------------------------------------------------------------
 % --------------------------------------------------------------------------------------------------------------
 
@@ -112,7 +112,8 @@
 % Title of the document. ---------------------------------------------------------------------------------------
 \title{\vspace{-13mm} \textbf{Μια (πολύ) σύντομη εισαγωγή στην R}
 \footnote{Η μετάφραση στα ελληνικά έγινε από τον Γιώργο Καφφέζα, στα πλαίσια του 1\textsuperscript{ου}
-σεμιναρίου πάνω στην R, από τη Μονάδα Αριστείας ΕΛ/ΛΑΚ του Πανεπιστημίου Πατρών.}}
+σεμιναρίου πάνω στην R, από τη Μονάδα Αριστείας ΕΛ/ΛΑΚ του Πανεπιστημίου Πατρών. Μπορείτε να τη βρείτε και
+στο εξής αποθετήριο: \url{https://github.com/maupatras/R_1_GrTranslation}}}
 \author{Paul Torfs \& Claudia Brauer\\
 \small{Ομάδα Υδρολογίας \& Ποσοτικής Διαχείρισης Υδάτων}\\
 \small{Πανεπιστήμιο Wageningen, Ολλανδία}}
@@ -177,7 +178,8 @@ Laboratories (πρώην AT\&T, πλέον Lucent Technologies) από τον Jo
 
 Είναι επίσης δυνατόν να εκτελέσετε την R και το RStudio μέσω ενός USB αντί να τα εγκαταστήσετε. Αυτό
 θα μπορούσε να φανεί χρήσιμο όταν δεν έχετε δικαιώματα διαχειριστή στον υπολογιστή σας. Δείτε και 
-την ξεχωριστή σημείωσή μας ``How to use portable versions of R and RStudio" για βοήθεια στο 
+την ξεχωριστή σημείωσή μας ``How to use portable versions of R and RStudio"\footnote{ΣτΜ: τη σημείωση αυτή
+μπορείτε να την βρείτε στον ακόλουθο σύνδεσμο: \url{https://github.com/ClaudiaBrauer/A-very-short-introduction-to-R/blob/master/documents/Portable\%20versions\%20of\%20R\%20and\%20RStudio.pdf}} για βοήθεια στο 
 συγκεκριμένο θέμα.
 
 % ----- [02] Install RStudio -----------------------------------------------------------------------------------
@@ -200,6 +202,8 @@ Laboratories (πρώην AT\&T, πλέον Lucent Technologies) από τον Jo
 % ----- [03] RStudio layout ------------------------------------------------------------------------------------
 \subsection{Η διάταξη του RStudio}
 
+Η διεπαφή του RStudio αποτελείται από διάφορα παράθυρα (βλέπε το Σχήμα~\ref{fig:screenshot}).
+
 \begin{figure*}[htb]
   \centering
   \includegraphics[width=13cm, clip=true, trim=0cm 0cm 9mm 0cm]{img/rstudio_screenshot.pdf}
@@ -208,7 +212,6 @@ Laboratories (πρώην AT\&T, πλέον Lucent Technologies) από τον Jo
   \label{fig:screenshot}
 \end{figure*}
 
-Η διεπαφή του RStudio αποτελείται από διάφορα παράθυρα (βλέπε το Σχήμα~\ref{fig:screenshot}).
 \begin{itemize}
 \item Κάτω αριστερά: \textbf{παράθυρο κονσόλας} (καλείται επίσης και \textbf{παράθυρο εντολών}).
 Εδώ μπορείτε να εισάγετε απλές εντολές μετά το σύμβολο υποβολής ``$>$'' και η R στη συνέχεια θα εκτελέσει
