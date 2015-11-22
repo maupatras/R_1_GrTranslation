@@ -7,7 +7,7 @@ and other related texts in the following repository:
 
 The translation was done by George Kaffezas, edited by Vassilis Georgiou, as a contribution within a seminar about R,
 organized by [GFOSS](https://ellak.gr/greek-free-open-source-software-societygfoss/) on May 2015 at the University of
-Patras. You can also find it in "Contributed Documentation" on the [Comprehensive R Archive Network](https://cran.r-project.org/index.html).
+Patras. You can also find it in "Contributed Documentation" on the [Comprehensive R Archive Network](https://cran.r-project.org/index.html) (link for direct download  [here](https://cran.r-project.org/doc/contrib/Torfs+Brauer-very-short-intro-to-R-greek.pdf)).
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -19,4 +19,4 @@ Patras. You can also find it in "Contributed Documentation" on the [Comprehensiv
 [github.com/ClaudiaBrauer/A-very-short-introduction-to-R](https://github.com/ClaudiaBrauer/A-very-short-introduction-to-R)
 
 Η μετάφραση έγινε από τον Γιώργο Καφφέζα, υπό την επίβλεψη του Βασίλη Γεωργίου, ως συνεισφορά στα πλαίσια ενός σεμιναρίου
-για την R, που οργανώθηκε από την [ΕΕΛ/ΛΑΚ](https://ellak.gr/i-eellak/) το Μάιο του 2015 στο Πανεπιστήμιο Πατρών. Μπορείτε να την βρείτε επίσης στην ενότητα "Contributed Documentation" στο [Comprehensive R Archive Network](https://cran.r-project.org/index.html).
+για την R, που οργανώθηκε από την [ΕΕΛ/ΛΑΚ](https://ellak.gr/i-eellak/) το Μάιο του 2015 στο Πανεπιστήμιο Πατρών. Μπορείτε να την βρείτε επίσης στην ενότητα "Contributed Documentation" στο [Comprehensive R Archive Network](https://cran.r-project.org/index.html) (σύνδεσμος για άμεσο κατέβασμα  [εδώ](https://cran.r-project.org/doc/contrib/Torfs+Brauer-very-short-intro-to-R-greek.pdf)).
